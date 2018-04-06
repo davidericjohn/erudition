@@ -20,7 +20,7 @@ public class RegisterServiceImpl implements RegisterService {
 	private UserService userService;
 
 	/* (non-Javadoc)
-	 * @see com.ph.eric.ubiquitousfortnightws.service.RegisterService#saveUser()
+	 * @see com.ph.eric.eruditionws.service.RegisterService#saveUser()
 	 */
 	@Override
 	public void saveUser(final UserTO user) {

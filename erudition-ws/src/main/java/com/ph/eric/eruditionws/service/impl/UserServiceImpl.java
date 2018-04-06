@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.ph.eric.eruditionws.service.impl;
 
 import java.util.List;
@@ -26,7 +23,7 @@ public class UserServiceImpl implements UserService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.ph.eric.ubiquitousfortnightws.service.UserService#getUserById(java.lang.
+	 * com.ph.eric.eruditionws.service.UserService#getUserById(java.lang.
 	 * Long)
 	 */
 	@Override
@@ -37,7 +34,7 @@ public class UserServiceImpl implements UserService {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.ph.eric.ubiquitousfortnightws.service.UserService#save(com.ph.eric.
+	 * @see com.ph.eric.eruditionws.service.UserService#save(com.ph.eric.
 	 * ubiquitousfortnightws.to.UserTO)
 	 */
 	@Override
