@@ -2,8 +2,7 @@ package com.ph.eric.eruditionws;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * Ubiquitous Fortnight Web Service's servlet initializer
@@ -12,15 +11,16 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * @since 1.0.0
  */
 @SpringBootApplication
-public class EruditionWsApplication extends SpringBootServletInitializer {
+@EnableJpaAuditing
+public class EruditionWsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EruditionWsApplication.class, args);
 	}
 
-	@Override
+	/*@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(EruditionWsApplication.class);
-	}
+	}*/
 
 }

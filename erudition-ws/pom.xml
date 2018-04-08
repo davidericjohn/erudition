@@ -6,7 +6,7 @@
 	<groupId>com.ph.eric</groupId>
 	<artifactId>erudition-ws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>erudition-ws</name>
 	<description>Demo project for Spring Boot</description>
@@ -25,10 +25,12 @@
 	</properties>
 
 	<dependencies>
+		<!-- For advanced monitoring and tracing of application -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+		<!-- For web & RESTful applications -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -36,29 +38,46 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
-			<exclusions>
-				<exclusion>
+			<!-- <exclusions> -->
+				<!-- To skip tomcat jdbc pooling in favor of the next pooling library -->
+				<!-- <exclusion>
 					<groupId>org.apache.tomcat</groupId>
 					<artifactId>tomcat-jdbc</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions> -->
 		</dependency>
+		<!-- For spring security -->
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<!-- For spring data jpa with hibernate -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- For logging using log4j2 -->
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-log4j2</artifactId>
+		</dependency> -->
+
 		<!-- <dependency> <groupId>org.mybatis.spring.boot</groupId> <artifactId>mybatis-spring-boot-starter</artifactId> 
 			<version>1.0.0</version> </dependency> -->
 
 		<!-- Exclude the embedded container from the package -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
-		</dependency>
-		
+		</dependency> -->
+
 		<!-- Embedded database -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 		</dependency>
-		
+
 		<!-- Spring Boot Dev Tools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

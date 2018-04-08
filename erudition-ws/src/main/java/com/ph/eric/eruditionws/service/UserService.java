@@ -2,7 +2,7 @@ package com.ph.eric.eruditionws.service;
 
 import java.util.List;
 
-import com.ph.eric.eruditionws.to.UserTO;
+import com.ph.eric.eruditionws.model.User;
 
 /**
  * @author davidericjohn
@@ -14,13 +14,35 @@ public interface UserService {
 	 * 
 	 * @return
 	 */
-	public List<UserTO> getAll();
+	List<User> findAll();
+	
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 */
+	User findById(Long id);
 	
 	/**
 	 * 
 	 * @param user
 	 * @return
 	 */
-	public UserTO save(UserTO user);
+	User save(User user);
+	
+	/**
+	 * 
+	 * @param id
+	 * @param user
+	 * @return
+	 */
+	User update(Long id, User user);
+	
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 */
+	void delete(Long id);
 
 }

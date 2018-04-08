@@ -1,6 +1,6 @@
 package com.ph.eric.eruditionws.service;
 
-import com.ph.eric.eruditionws.to.UserTO;
+import com.ph.eric.eruditionws.model.User;
 
 /**
  * Registration Service
@@ -15,6 +15,6 @@ public interface RegisterService {
 	 * 
 	 * @param user
 	 */
-	public void saveUser(UserTO user);
+	public void saveUser(User user);
 
 }
