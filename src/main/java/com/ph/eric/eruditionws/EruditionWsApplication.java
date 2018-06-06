@@ -18,9 +18,4 @@ public class EruditionWsApplication {
 		SpringApplication.run(EruditionWsApplication.class, args);
 	}
 
-	/*@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(EruditionWsApplication.class);
-	}*/
-
 }

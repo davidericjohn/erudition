@@ -18,7 +18,6 @@ import org.springframework.data.annotation.LastModifiedDate;
  * Abstract Transfer Object
  * 
  * @author davidericjohn
- * @since 1.0.0
  */
 @MappedSuperclass
 public class AbstractModel implements Serializable {
@@ -62,9 +61,10 @@ public class AbstractModel implements Serializable {
 	}
 
 	/**
-	 * @param createdDate the createdDate to set
+	 * @param createdDate
+	 *            the createdDate to set
 	 */
-	public void setCreatedDate(Date createdDate) {
+	public void setCreatedDate(final Date createdDate) {
 		this.createdDate = createdDate;
 	}
 
@@ -76,9 +76,10 @@ public class AbstractModel implements Serializable {
 	}
 
 	/**
-	 * @param lastModifiedDate the lastModifiedDate to set
+	 * @param lastModifiedDate
+	 *            the lastModifiedDate to set
 	 */
-	public void setLastModifiedDate(Date lastModifiedDate) {
+	public void setLastModifiedDate(final Date lastModifiedDate) {
 		this.lastModifiedDate = lastModifiedDate;
 	}
 
