@@ -1,0 +1,3 @@
+insert into users(id, first_name, last_name, email, createdDate, lastModifiedDate) values(1,'John','Doe','johndoe@gmail.com', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP());
+insert into users(id, first_name, last_name, email, createdDate, lastModifiedDate) values(2,'Jane','Doe','janedoe@gmail.com', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP());
+insert into users(id, first_name, last_name, email, createdDate, lastModifiedDate) values(3,'Juan','Dela Cruz','juandelacruz@gmail.com', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP());
