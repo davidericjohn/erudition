@@ -1,4 +1,4 @@
-package com.ph.eric.eruditionws.security;
+package com.ph.eric.springboothibernatebasicauth.security;
 
 import java.io.IOException;
 

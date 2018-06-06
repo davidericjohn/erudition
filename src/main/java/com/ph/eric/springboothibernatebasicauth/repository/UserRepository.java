@@ -1,9 +1,9 @@
-package com.ph.eric.eruditionws.repository;
+package com.ph.eric.springboothibernatebasicauth.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ph.eric.eruditionws.model.User;
+import com.ph.eric.springboothibernatebasicauth.model.User;
 
 /**
  * @author davidericjohn

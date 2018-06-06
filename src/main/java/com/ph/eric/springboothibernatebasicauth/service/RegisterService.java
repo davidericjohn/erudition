@@ -1,6 +1,6 @@
-package com.ph.eric.eruditionws.service;
+package com.ph.eric.springboothibernatebasicauth.service;
 
-import com.ph.eric.eruditionws.model.User;
+import com.ph.eric.springboothibernatebasicauth.model.User;
 
 /**
  * Registration Service

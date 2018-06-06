@@ -1,4 +1,4 @@
-package com.ph.eric.eruditionws.model;
+package com.ph.eric.springboothibernatebasicauth.model;
 
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;

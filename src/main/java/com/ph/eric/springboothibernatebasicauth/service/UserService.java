@@ -1,8 +1,8 @@
-package com.ph.eric.eruditionws.service;
+package com.ph.eric.springboothibernatebasicauth.service;
 
 import java.util.List;
 
-import com.ph.eric.eruditionws.model.User;
+import com.ph.eric.springboothibernatebasicauth.model.User;
 
 /**
  * @author davidericjohn

@@ -1,4 +1,4 @@
-package com.ph.eric.eruditionws.controller;
+package com.ph.eric.springboothibernatebasicauth.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ph.eric.eruditionws.model.User;
-import com.ph.eric.eruditionws.service.UserService;
+import com.ph.eric.springboothibernatebasicauth.model.User;
+import com.ph.eric.springboothibernatebasicauth.service.UserService;
 
 /**
  * 

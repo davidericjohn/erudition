@@ -1,4 +1,4 @@
-package com.ph.eric.eruditionws.exception;
+package com.ph.eric.springboothibernatebasicauth.exception;
 
 /**
  * @author davidericjohn

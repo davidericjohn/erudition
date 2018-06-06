@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ph.eric</groupId>
-	<artifactId>erudition-ws</artifactId>
+	<artifactId>spring-boot-hibernate-basic-auth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>erudition-ws</name>
+	<name>spring-boot-hibernate-basic-auth</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -94,7 +94,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>erudition-ws</finalName>
+		<finalName>spring-boot-hibernate-basic-auth</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

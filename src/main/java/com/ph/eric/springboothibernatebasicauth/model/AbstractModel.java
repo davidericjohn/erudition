@@ -1,4 +1,4 @@
-package com.ph.eric.eruditionws.model;
+package com.ph.eric.springboothibernatebasicauth.model;
 
 import java.io.Serializable;
 import java.util.Date;

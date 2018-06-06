@@ -1,14 +1,14 @@
-package com.ph.eric.eruditionws.service.impl;
+package com.ph.eric.springboothibernatebasicauth.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ph.eric.eruditionws.exception.ResourceNotFoundException;
-import com.ph.eric.eruditionws.model.User;
-import com.ph.eric.eruditionws.repository.UserRepository;
-import com.ph.eric.eruditionws.service.UserService;
+import com.ph.eric.springboothibernatebasicauth.exception.ResourceNotFoundException;
+import com.ph.eric.springboothibernatebasicauth.model.User;
+import com.ph.eric.springboothibernatebasicauth.repository.UserRepository;
+import com.ph.eric.springboothibernatebasicauth.service.UserService;
 
 /**
  * @author davidericjohn

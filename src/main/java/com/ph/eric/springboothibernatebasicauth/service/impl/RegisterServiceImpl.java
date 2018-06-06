@@ -1,11 +1,11 @@
-package com.ph.eric.eruditionws.service.impl;
+package com.ph.eric.springboothibernatebasicauth.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ph.eric.eruditionws.model.User;
-import com.ph.eric.eruditionws.service.RegisterService;
-import com.ph.eric.eruditionws.service.UserService;
+import com.ph.eric.springboothibernatebasicauth.model.User;
+import com.ph.eric.springboothibernatebasicauth.service.RegisterService;
+import com.ph.eric.springboothibernatebasicauth.service.UserService;
 
 /**
  * Registration Service implementation class

@@ -1,4 +1,4 @@
-package com.ph.eric.eruditionws.security;
+package com.ph.eric.springboothibernatebasicauth.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
