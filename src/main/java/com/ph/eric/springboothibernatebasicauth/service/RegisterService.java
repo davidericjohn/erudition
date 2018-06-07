@@ -3,17 +3,17 @@ package com.ph.eric.springboothibernatebasicauth.service;
 import com.ph.eric.springboothibernatebasicauth.model.User;
 
 /**
- * Registration Service
+ * Responsible for handling all registration transactions.
  * 
  * @author davidericjohn
- * @since 1.0.0
  */
 public interface RegisterService {
-	
+
 	/**
-	 * Saves user data
+	 * Stores the user data in the database.
 	 * 
 	 * @param user
+	 *            model object containing the user data
 	 */
 	public void saveUser(User user);
 

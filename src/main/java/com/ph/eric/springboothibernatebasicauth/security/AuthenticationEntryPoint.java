@@ -11,8 +11,9 @@ import org.springframework.security.web.authentication.www.BasicAuthenticationEn
 import org.springframework.stereotype.Component;
 
 /**
+ * This class is used to authenticate request using BASIC authentication.
+ * 
  * @author davidericjohn
- *
  */
 @Component
 public class AuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
@@ -29,13 +30,8 @@ public class AuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
 		super.afterPropertiesSet();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see org.springframework.security.web.authentication.www.
-	 * BasicAuthenticationEntryPoint#commence(javax.servlet.http.HttpServletRequest,
-	 * javax.servlet.http.HttpServletResponse,
-	 * org.springframework.security.core.AuthenticationException)
+	/**
+	 * Contains logic when requests are no longer authorized.
 	 */
 	@Override
 	public void commence(HttpServletRequest request, HttpServletResponse response,
@@ -43,5 +39,5 @@ public class AuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
 		response.addHeader("WWW-Authenticate", "Basic realm=" + getRealmName());
 		response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
 	}
-	
+
 }

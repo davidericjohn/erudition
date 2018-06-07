@@ -7,8 +7,9 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
+ * Contains the security configuration of the application.
+ * 
  * @author davidericjohn
- *
  */
 @Configuration
 @EnableWebSecurity
@@ -17,22 +18,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	public AuthenticationEntryPoint authEntryPoint;
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see org.springframework.security.config.annotation.web.configuration.
-	 * WebSecurityConfigurerAdapter#configure(org.springframework.security.config.
-	 * annotation.web.builders.HttpSecurity)
+	/**
+	 * Contains logic on how to authenticate requests.
 	 */
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.csrf().disable().authorizeRequests().anyRequest().fullyAuthenticated().and().httpBasic()
 				.authenticationEntryPoint(this.authEntryPoint);
 	}
-
-	/*@Autowired
-	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().withUser("john123").password("{noop}password").roles("USER");
-	}*/
 
 }

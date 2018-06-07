@@ -12,7 +12,6 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
  * Represents the User entity
  * 
  * @author davidericjohn
- * @since 1.0.0
  */
 @Entity
 @Table(name = "users")

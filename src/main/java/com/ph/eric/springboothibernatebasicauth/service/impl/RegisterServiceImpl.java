@@ -8,19 +8,19 @@ import com.ph.eric.springboothibernatebasicauth.service.RegisterService;
 import com.ph.eric.springboothibernatebasicauth.service.UserService;
 
 /**
- * Registration Service implementation class
+ * Implementation class of {@code RegisterService} which handles all
+ * registration related transactions.
  * 
  * @author davidericjohn
- * @since 1.0.0
  */
 @Component
 public class RegisterServiceImpl implements RegisterService {
-	
+
 	@Autowired
 	private UserService userService;
 
-	/* (non-Javadoc)
-	 * @see com.ph.eric.eruditionws.service.RegisterService#saveUser()
+	/**
+	 * {@inheritDoc}
 	 */
 	@Override
 	public void saveUser(final User user) {

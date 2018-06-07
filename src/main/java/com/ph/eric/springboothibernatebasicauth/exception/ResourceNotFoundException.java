@@ -2,7 +2,6 @@ package com.ph.eric.springboothibernatebasicauth.exception;
 
 /**
  * @author davidericjohn
- *
  */
 public class ResourceNotFoundException extends RuntimeException {
 
