@@ -1,2 +1,5 @@
-# erudition
-A repository for projects that are hoped to be developed into something noteworthy
+# spring-boot-hibernate-basic-auth
+A simple RESTful CRUD API implemented with spring-boot, hibernate and basic authentication
+
+#Usage 
+-...
