@@ -33,11 +33,22 @@ public class UserController {
 	/**
 	 * Maps the request for querying all users in the database.
 	 * 
-	 * @return http response containing the status code, headers and body
+	 * @return http response containing the status code, headers and user data
 	 */
 	@GetMapping
 	public ResponseEntity<List<User>> findAll() {
 		return ResponseEntity.ok(this.service.findAll());
+	}
+	
+	/**
+	 * Maps the request for querying user with the given ID
+	 * 
+	 * @param id
+	 * @return http response containing the status code, headers and user data
+	 */
+	@GetMapping("/{id}")
+	public ResponseEntity<User> findById(@PathVariable Long id) {
+		return ResponseEntity.ok(this.service.findById(id));
 	}
 
 	/**
