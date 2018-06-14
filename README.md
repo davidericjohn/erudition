@@ -3,7 +3,7 @@ A simple RESTful CRUD API implemented with spring-boot, hibernate, basic authent
 
 # Usage
 
-You may use any REST client available to test this application. In my case, I use Postman. Follow the link below for more details.
+You may use any REST client available to test this application. In my case, I use Postman. Check on the following link for more details.
 https://www.getpostman.com/
 
 To start, open your command line to execute the following commands:
@@ -17,7 +17,7 @@ Run the application
 java -jar spring-boot-hibernate-basic-auth
 ```
 
-The application will run on port 8080 by default. You may configure this in application.properties file via property "server.port". Check on the commonly used properties on the link below:
+The application will run on port 8080 by default. You may configure this in application.properties file via property "server.port". Check on the commonly used properties on the following link:
 https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 
 Use the below credentials:
