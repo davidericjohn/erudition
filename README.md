@@ -8,11 +8,11 @@ https://www.getpostman.com/
 
 To start, open your command line to execute the following commands:
 
-Compile the application
+If you have not compiled the source code yet, you may do so by running Maven build. The packaged application is found in the target folder.
 ```
 mvn clean package
 ```
-Run the application 
+To run the application...
 ```
 java -jar spring-boot-hibernate-basic-auth
 ```
