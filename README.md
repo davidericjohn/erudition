@@ -17,7 +17,7 @@ Run the application
 java -jar spring-boot-hibernate-basic-auth
 ```
 
-The application will run on port 8080 by default. 
+The application will run on port 8080 by default. You may configure this in application.properties file via property "server.port"
 
 Use the below credentials:
 ```
