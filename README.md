@@ -3,7 +3,7 @@ A simple RESTful CRUD API implemented with spring-boot, hibernate, basic authent
 
 # Usage
 
-You may use any REST client available to test this application. In my case, I prefer Postman. Follow the link below for more details.
+You may use any REST client available to test this application. In my case, I use Postman. Follow the link below for more details.
 https://www.getpostman.com/
 
 To start, open your command line to execute the following commands:
